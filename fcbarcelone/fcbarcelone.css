@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: whoneydew ;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  align-items: center;
+  min-height: 100vh;
+}
+h1{
+  margin-top: 2px;
+  font-size: 45px;
+  color: blanchedalmond;
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background: black;
+  -webkit-border-reflect: below 1px linear-gradient(transparent,transparent,#0006) ;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+  transition: background 0.4s;
+}
+div.header1{
+  text-align: center;
+  justify-content: center;
+}
+
+section.boutonbas{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 35px;
+  
+ 
+}
+
+.boutoncomp{
+  border-radius: 2px;
+  background-color: sandybrown;
+  justify-content: center;
+  text-align: center;
+  width: 280px;
+  height: 55px;
+  text-align: center;
+  
+  
+}
+.boutonjou{
+  border-radius: 2px;
+  background-color: sandybrown;
+  justify-content: center;
+  text-align: center;
+  width: 280px;
+  height: 55px;
+  text-align: center;
+  
+}
+div.contact{
+  background-color: black;
+  text-align: center;
+  margin-top: 15px;
+}

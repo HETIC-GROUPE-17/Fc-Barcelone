@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fc barcelone</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="fcbarcelone.css">
+</head> 
+<body>
+  <div class="header1">
+    <header><img src="img/logo.png" alt="logo"></header>
+    <span> <h1>LoremIpsum</h1></span>
+  </div>
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/2015.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/2016.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/2017.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/2018.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/2018.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop: true, 
+        });
+      </script>
+      <section class="boutonbas">
+      <div class="boutoncomp"><img src="img/comparaison.png" alt="">COMPARAISON</div>
+      <div class="boutonjou"><img src="img/comparaison.png" alt="">STATS JOUEURS</div>
+      </section>
+      <footer><div class="contact"><img src="img/insta.png" alt="insta">
+              <img src="img/insta.png" alt="">
+              <img src="img/insta.png" alt="">
+              <img src="img/insta.png" alt=""></div>
+      </footer>
+      
+</body>
+</html>
