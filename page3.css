@@ -1,0 +1,207 @@
+body{
+    margin-left: 200px;
+    margin-right:  200px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: -webkit-radial-gradient(ellipse, #2a437c 0, #10203b 100%);
+}
+
+h1.titre{
+
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: -3px;
+    font-family: montserrat;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+ h2.soustitre{
+     
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: -3px;
+    font-family: montserrat;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+
+}
+
+h3.contexte{
+
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: -3px;
+    font-family: montserrat;
+    text-align: center;
+    margin-top:  5px;
+    color: #fff;
+}
+
+
+div.container{
+    height: 150vh;
+}
+
+
+/* tableau */
+img.edition{
+
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+div.contexte{
+
+    width: 150px;
+    margin-left: 180px;
+    margin-top: 60px;
+    grid-area: logo;
+  
+}
+
+/* tableau */
+
+div.tableau{
+     
+    margin-left: 270px;
+}
+
+span{
+
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    padding-top: 15px;
+    font-size: 11px;
+    font-size: 0.688rem;
+    text-align: center;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background: #fff;
+    grid-area: tableau;
+}
+
+span.match{
+
+    display: inline-block;
+    width: 450px;
+    height: 25px;
+    padding-top: 15px;
+    font-size: 11px;
+    font-size: 0.688rem;
+    text-align: center;
+    border-radius: 2px;
+    background: #fff;
+    grid-area: tableau;
+}
+
+em{
+    float: left;
+    margin-left: 60px;
+    grid-area: tableau;
+}
+
+b{
+    float: left;
+    margin-left: 60px;
+    grid-area: tableau;
+}
+
+div.infoclassement{
+
+
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 600px;
+    height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: space-between;
+    grid-area: info;
+    margin-top: 30px;
+    
+   
+}
+
+article.contenuclassement{
+
+    width: 600px;
+    grid-area: tableau;
+    margin-bottom: 20px;
+    
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border-bottom: 4px solid transparent;
+    font-size: 0;
+    grid-area: tableau;
+}
+
+img{
+    
+    display: block;
+    width: 40%;
+    margin: auto;
+  
+}
+.scroller {
+    width: 620px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;    
+}
+
+div.numeroannee{
+
+    background: white;
+    width: 600px;
+    height: 92px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(3, 30px);
+    grid-area: tableau;
+}
+
+div#trophe{
+    
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div.boutoncourbe{
+
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+
+
+/* Terrain */
+
+
