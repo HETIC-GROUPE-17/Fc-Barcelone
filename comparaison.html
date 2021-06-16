@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="comparaison.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <div class="heading">
+     <h1>COMPARAISON</h1>
+     <img src="img/logo.png" alt="">
+   </div>
+   <div class="gauche">
+    <button onclick="anne15()">2015</button>
+    <button onclick="anne16()">2016</button>
+    <button onclick="anne17()">2017</button>
+  </div>
+  <div class="droite">
+    <button onclick="anne18()">2018</button>
+    <button onclick="anne19()">2019</button>
+    <button onclick="anne20()">2020</button>
+  </div>
+    <div class="jauge">
+      <div class="blanc1"></div>
+      <div class="blanc2"></div>
+      <div class="blanc3"></div>
+      <div class="jauge1"></div>
+      <div class="jauge2"></div>
+      <div class="jauge3"></div>
+    </div>
+    <h3 class="trophee">TROPHÉES</h3>
+    <h3 class="butm">BUTS MARQUÉES</h3>
+    <h3 class="bute">BUTS ENCAISSÉES</h3>
+    <div id="a2015" style= "display: none;">
+      <div class="but15"></div>
+      <div class="trophee15"></div>
+      <div class="butenc15"></div>
+     <div class="classement">
+      <div class="n2"><p>2</p></div>
+      <div class="n1"><p>1</p></div>
+      <div class="n3"><p>3</p></div>
+      <img class="barca15" src="img/barcelone.svg" alt="barca">
+      <img class="ath15"src="img/ath.svg" alt="ath">
+      <img class ="real15"src="img/real.svg" alt="real">
+     </div>
+    </div>
+    <div id="a2016" style= "display: none;">
+      <div class="but16"></div>
+      <div class="trophee16"></div>
+      <div class="butenc16"></div>
+      <div class="classement">
+        <div class="n2"><p>2</p></div>
+        <div class="n1"><p>1</p></div>
+        <div class="n3"><p>3</p></div>
+        <img class="barca16" src="img/barcelone.svg" alt="barca">
+        <img class="ath16"src="img/ath.svg" alt="real">
+        <img class ="real16"src="img/real.svg" alt="">
+       </div>
+    </div>
+    <div id="a2017" style= "display: none;">
+      <div class="but17"></div>
+      <div class="trophee17"></div>
+      <div class="butenc17"></div>
+      <div class="classement">
+        <div class="n2"><p>2</p></div>
+        <div class="n1"><p>1</p></div>
+        <div class="n3"><p>3</p></div>
+        <img class="barca17" src="img/barcelone.svg" alt="barca">
+        <img class="ath17"src="img/ath.svg" alt="real">
+        <img class ="real17"src="img/real.svg" alt="">
+       </div>
+    </div>
+    <div id="a2018" style= "display: none;">
+      <div class="butenc18"></div>
+      <div class="trophee18"></div>
+      <div class="but18"></div>
+      <div class="classement2">
+        <div class="n4"><p>2</p></div>
+        <div class="n5"><p>1</p></div>
+        <div class="n6"><p>3</p></div>
+        <img class="barca18" src="img/barcelone.svg" alt="">
+        <img class="ath18" src="img/ath.svg" alt="">
+        <img class="real18" src="img/real.svg" alt="">
+       </div>
+    </div>
+    <div id="a2019" style= "display: none;">
+      <div class="but19"></div>
+      <div class="trophee19"></div>
+      <div class="butenc19"></div>
+      <div class="classement2">
+        <div class="n4"><p>2</p></div>
+        <div class="n5"><p>1</p></div>
+        <div class="n6"><p>3</p></div>
+        <img class="barca19" src="img/barcelone.svg" alt="">
+        <img class="ath19" src="img/ath.svg" alt="">
+        <img class="real19" src="img/real.svg" alt="">
+       </div>
+    </div>
+    <div id="a2020" style= "display: none;">
+      <div class="but20"></div>
+      <div class="trophee20"></div>
+      <div class="butenc20"></div>
+      <div class="classement2">
+        <div class="n4"><p>2</p></div>
+        <div class="n5"><p>1</p></div>
+        <div class="n6"><p>3</p></div>
+        <img class="barca20" src="img/barcelone.svg" alt="">
+        <img class="ath20" src="img/ath.svg" alt="">
+        <img class="real20" src="img/real.svg" alt="">
+       </div>
+    </div>
+    <script>
+
+      function cacheToutesLesAnnesGauche() {
+        var anne15 = document.getElementById("a2015");
+        anne15.style.display = 'none';
+        var anne16 = document.getElementById("a2016");
+        anne16.style.display = 'none';
+        var anne17 = document.getElementById("a2017");
+        anne17.style.display = 'none';
+      }
+
+      function cacheToutesLesAnnesDroite() {
+        var anne18 = document.getElementById("a2018");
+        anne18.style.display = 'none';
+        var anne19 = document.getElementById("a2019");
+        anne19.style.display = 'none';
+        var anne20 = document.getElementById("a2020");
+        anne20.style.display = 'none';
+      }
+
+      function anne15() {
+        cacheToutesLesAnnesGauche();
+        var div = document.getElementById("a2015");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      function anne16() {
+        cacheToutesLesAnnesGauche();
+        var div = document.getElementById("a2016");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      function anne17() {
+        cacheToutesLesAnnesGauche();
+        var div = document.getElementById("a2017");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      function anne18() {
+        cacheToutesLesAnnesDroite();
+        var div = document.getElementById("a2018");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      function anne19() {
+        cacheToutesLesAnnesDroite();
+        var div = document.getElementById("a2019");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      function anne20() {
+        cacheToutesLesAnnesDroite();
+        var div = document.getElementById("a2020");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+      
+    </script>
+       
+</body>
+</html>  
