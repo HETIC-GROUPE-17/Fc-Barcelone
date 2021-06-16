@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:  linear-gradient(
+        247deg
+        ,#154284,#181733); 
+}
+
+
+.carousel-container{
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    
+    
+}

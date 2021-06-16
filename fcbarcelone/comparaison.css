@@ -1,0 +1,313 @@
+body {
+  background: #eee;
+}
+/* Rectangle 58 */
+
+.blanc1{
+position: relative;
+width: 219px;
+height: 37px;
+left: 699px;
+top: 324px;
+
+background: #FFFFFF;
+border-radius: 0px 10px 10px 0px;
+}
+
+/* Rectangle 68 */
+
+.blanc2{
+position: relative
+width: 219px;
+height: 37px;
+left: 699px;
+top: 254px;
+
+background: #FFFFFF;
+border-radius: 0px 10px 10px 0px;
+}
+
+/* Rectangle 69 */
+
+.blanc3{
+position: relative;
+width: 219px;
+height: 37px;
+left: 699px;
+top: 182px;
+
+background: #FFFFFF;
+border-radius: 0px 10px 10px 0px;
+}
+
+/* Rectangle 59 */
+
+
+/*---------------------------------------------------------*/
+
+/* Rectangle 57 */
+
+.jauge1{
+position: relative;
+width: 219px;
+height: 37px;
+left: 478px;
+top: 324px;
+
+background: #FFFFFF;
+border-radius: 10px 0px 0px 10px;
+}
+
+/* Rectangle 67 */
+
+.jauge2{
+position: relative;
+width: 219px;
+height: 37px;
+left: 478px;
+top: 182px;
+
+background: #FFFFFF;
+border-radius: 10px 0px 0px 10px;
+}
+
+/* Rectangle 66 */
+
+.jauge3{
+position: relative;
+width: 219px;
+height: 37px;
+left: 478px;
+top: 254px;
+
+background: #FFFFFF;
+border-radius: 10px 0px 0px 10px;
+}
+
+/* Rectangle 71 */
+
+.butenc15{
+position: absolute;
+width: 70px;
+height: 37px;
+left: 628px;
+top: 324px;
+
+background: #EE1313;
+border-radius: 10px 0px 0px 10px;
+}
+
+/* Rectangle 65 */
+
+.trophee15{
+position: absolute;
+width: 148px;
+height: 37px;
+left: 550px;
+top: 182px;
+
+background: #FFE600;
+border-radius: 10px 0px 0px 10px;
+}
+
+/* Rectangle 60 */
+
+.but15{
+position: absolute;
+width: 180px;
+height: 37px;
+left: 518px;
+top: 254px;
+
+background: #0038FF;
+border-radius: 10px 0px 0px 10px;
+}
+/*--------------------------------------------------*/
+
+.butenc16{
+  position: absolute;
+  width: 176px;
+  height: 37px;
+  left: 522px;
+  top: 324px;
+  
+  background: #EE1313;
+  border-radius: 10px 0px 0px 10px;
+  }
+  
+
+  
+  .trophee16{
+  position: absolute;
+  width: 76px;
+  height: 37px;
+  left: 625px;
+  top: 182px;
+  
+  background: #FFE600;
+  border-radius: 10px 0px 0px 10px;
+  }
+  
+
+  
+  .but16{
+  position: absolute;
+  width: 200px;
+  height: 37px;
+  left: 498px;
+  top: 254px;
+  
+  background: #0038FF;
+  border-radius: 10px 0px 0px 10px;
+  }
+  /*----------------------------------------*/
+  .butenc17{
+    position: absolute;
+    width: 176px;
+    height: 37px;
+    left: 522px;
+    top: 324px;
+    
+    background: #EE1313;
+    border-radius: 10px 0px 0px 10px;
+    }
+    
+  
+    
+    .trophee17{
+    position: absolute;
+    width: 76px;
+    height: 37px;
+    left: 612px;
+    top: 182px;
+    
+    background: #FFE600;
+    border-radius: 10px 0px 0px 10px;
+    }
+    
+  
+    
+    .but17{
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 576px;
+    top: 254px;
+    
+    background: #0038FF;
+    border-radius: 10px 0px 0px 10px;
+    }
+    /*-------------------------------------*/
+    .butenc18{
+      position: absolute;
+      width: 138px;
+      height: 37px;
+      left: 699px;
+      top: 254px;
+      
+      background: #0038FF;
+      border-radius: 0px 10px 10px 0px;
+      }
+      
+      /* Rectangle 64 */
+      
+      .trophee18{
+      position: absolute;
+      width: 76px;
+      height: 37px;
+      left: 699px;
+      top: 182px;
+      
+      background: #FFE600;
+      border-radius: 0px 10px 10px 0px;
+      }
+      
+      /* Rectangle 70 */
+      
+      .but18{
+      position: absolute;
+      width: 175px;
+      height: 37px;
+      left: 699px;
+      top: 324px;
+      
+      background: #EE1313;
+      border-radius: 0px 10px 10px 0px;
+      }
+      /*------------------------------*/
+      .butenc19{
+        position: absolute;
+        width: 176px;
+        height: 37px;
+        left: 522px;
+        top: 324px;
+        
+        background: #EE1313;
+        border-radius: 10px 0px 0px 10px;
+        }
+        
+      
+        
+        .trophee19{
+        position: absolute;
+        width: 0px;
+        height: 37px;
+        left: 612px;
+        top: 182px;
+        
+        background: #FFE600;
+        border-radius: 10px 0px 0px 10px;
+        }
+        
+      
+        
+        .but19{
+        position: absolute;
+        width: 122px;
+        height: 37px;
+        left: 576px;
+        top: 254px;
+        
+        background: #0038FF;
+        border-radius: 10px 0px 0px 10px;
+        }
+        /*----------------------------------*/
+        .butenc20{
+          position: absolute;
+          width: 176px;
+          height: 37px;
+          left: 522px;
+          top: 324px;
+          
+          background: #EE1313;
+          border-radius: 10px 0px 0px 10px;
+          }
+          
+        
+          
+          .trophee20{
+          position: absolute;
+          width: 37px;
+          height: 37px;
+          left: 612px;
+          top: 182px;
+          
+          background: #FFE600;
+          border-radius: 10px 0px 0px 10px;
+          }
+          
+        
+          
+          .but20{
+          position: absolute;
+          width: 122px;
+          height: 37px;
+          left: 576px;
+          top: 254px;
+          
+          background: #0038FF;
+          border-radius: 10px 0px 0px 10px;
+          }
+          .jauge{
+            margin: auto;
+          }
